@@ -1,0 +1,181 @@
+/* General Styling */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  margin: 0;
+
+  line-height: 1.6;
+
+  background: #fefce8; /* light cream */
+
+  color: #2c2c2c;
+}
+
+/* Header */
+
+header {
+  background: linear-gradient(135deg, #1e3a8a, #10b981); /* blue → green */
+
+  color: #fff;
+
+  padding: 40px 0;
+
+  text-align: center;
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.5rem;
+
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+
+  font-weight: 300;
+}
+
+/* Navigation */
+
+nav {
+  background: #1e3a8a; /* dark blue */
+}
+
+nav ul {
+  display: flex;
+
+  justify-content: center;
+
+  padding: 0;
+
+  list-style: none;
+
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f59e0b; /* golden orange on hover */
+}
+
+/* Section */
+
+.container {
+  width: 80%;
+
+  margin: auto;
+
+  padding: 30px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+
+  color: #1e3a8a;
+
+  border-left: 6px solid #10b981;
+
+  padding-left: 10px;
+}
+
+/* Skills */
+
+.skills-list {
+  list-style: none;
+
+  padding: 0;
+}
+
+.skills-list li {
+  display: inline-block;
+
+  background: #f59e0b; /* golden orange */
+
+  color: #fff;
+
+  padding: 10px 15px;
+
+  margin: 5px;
+
+  border-radius: 20px;
+
+  font-weight: bold;
+
+  transition: transform 0.2s ease;
+}
+
+.skills-list li:hover {
+  transform: scale(1.1);
+}
+
+/* Projects */
+
+.project-card {
+  background: #fff;
+
+  padding: 20px;
+
+  margin: 15px 0;
+
+  border-left: 6px solid #10b981; /* green */
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+
+  transition: transform 0.2s ease, border-color 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+
+  border-color: #1e3a8a; /* dark blue on hover */
+}
+
+.project-card h3 {
+  color: #1e3a8a;
+}
+
+/* Contact Links */
+
+#contact a {
+  color: #10b981; /* green */
+
+  text-decoration: none;
+
+  font-weight: bold;
+}
+
+#contact a:hover {
+  color: #f59e0b; /* golden orange */
+
+  text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+  background: #1e3a8a;
+
+  color: #fff;
+
+  text-align: center;
+
+  padding: 15px;
+
+  margin-top: 20px;
+}
